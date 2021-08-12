@@ -29,9 +29,11 @@ const Produto = () => {
       <Helmet>
         <title>{`${produto.nome}`}</title>
       </Helmet>
-      {produto.fotos.map((foto) =>
-        <img key={foto.src} src={foto.src} alt={foto.titulo} />
-      )}
+      <div>
+        {produto.fotos.map((foto) =>
+          <img key={foto.src} src={foto.src} alt={foto.titulo} />
+        )}
+      </div>
       <div>
         <h1>{produto.nome}</h1>
         <span className={styles.preco} >R$ {produto.preco}</span>

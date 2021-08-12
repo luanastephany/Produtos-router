@@ -1,0 +1,22 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.produto img {
+  margin-bottom: 2rem;
+}
+
+.preco {
+  padding: 0.5rem;
+  background: rgb(183, 198, 241);
+  color: rgb(65, 108, 228);
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.descricao {
+  font-family: monospace;
+  font-size: 1.2rem;
+}

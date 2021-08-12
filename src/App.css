@@ -1,5 +1,6 @@
 body {
   margin: 2rem;
+  font-family:'Segoe UI', Verdana, sans-serif;
 }
 
 img {
@@ -14,6 +15,18 @@ a {
 
 h1 {
   font-size: 1.4rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  min-height: calc(100vh + 10rem); /*toda a tela + tamanho do footer*/
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1;
 }
 
 .animeLeft {
